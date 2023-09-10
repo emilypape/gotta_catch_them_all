@@ -41,7 +41,7 @@ export default function PokemonProfile({ name }: PokemonProfileProps) {
       setPokemonProfile(pokemon);
     } catch (error) {
       alert('There is no pokemon with this name. Return Home and try again!');
-      router.push('/Home'); // Redirect to the home page if there's an error
+      router.push('/'); // Redirect to the home page if there's an error
     }
   }
 
@@ -83,7 +83,7 @@ export default function PokemonProfile({ name }: PokemonProfileProps) {
           </div>
         </div>
       </div>
-      <Link href="/Home">
+      <Link href="/">
         <button className="homeButton">Home</button>
       </Link>
     </div>
