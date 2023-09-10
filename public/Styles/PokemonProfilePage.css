@@ -1,0 +1,47 @@
+.pokemonProfilePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pokemonName {
+  font-size: x-large;
+  font-weight: 900;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  color: blue;
+}
+
+.pokemonAttributesContainer {
+  background-color: gold;
+  padding: 2em;
+}
+.abilityListContainer {
+  display: flex;
+}
+
+.abilityListItem {
+  padding-right: 3px;
+}
+
+.abilitiesHeader {
+  padding-right: 3px;
+}
+
+.pokemonCardContainer {
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-direction: column;
+
+  max-width: 30%;
+}
+
+.homeButton {
+  background-color: blue;
+  color: gold;
+  padding: 1em;
+  width: 10em;
+  margin-top: 2em;
+}

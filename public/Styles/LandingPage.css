@@ -1,0 +1,44 @@
+.pokedexContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pokedexEntry {
+  max-width: 100%;
+  margin-top: 3px;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding: 1em;
+  justify-items: center;
+  box-shadow: 3px 3px 3px grey;
+  justify-content: space-evenly;
+}
+
+.pokedexEntry:hover {
+  background-color: hotpink;
+  cursor: pointer;
+}
+
+.pokedexName {
+  display: flex;
+  text-align: center;
+}
+
+input {
+  width: 20%;
+  padding: 2px;
+  margin-right: 5px;
+}
+
+.pokedexInputBox {
+  display: flex;
+}
+
+.searchIcon {
+  cursor: pointer;
+}
+
+.pokemonAttribute {
+  margin-bottom: 1em;
+  font-weight: 500;
+}

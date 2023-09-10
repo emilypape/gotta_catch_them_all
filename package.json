@@ -16,8 +16,7 @@
     "start": "next start",
     "type-check": "tsc --noEmit",
     "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
-    "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write",
-    "postinstall": "husky install"
+    "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write"
   },
   "lint-staged": {
     "./src/**/*.{ts,js,jsx,tsx}": [
@@ -33,6 +32,7 @@
   "devDependencies": {
     "@commitlint/cli": "17.7.1",
     "@commitlint/config-conventional": "17.7.0",
+    "@iconify/react": "4.1.1",
     "@types/node": "18.17.14",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
@@ -44,7 +44,6 @@
     "eslint-import-resolver-typescript": "3.6.0",
     "eslint-plugin-import": "2.28.1",
     "eslint-plugin-prettier": "5.0.0",
-    "husky": "8.0.3",
     "lint-staged": "14.0.1",
     "prettier": "3.0.3",
     "typescript": "5.2.2"
